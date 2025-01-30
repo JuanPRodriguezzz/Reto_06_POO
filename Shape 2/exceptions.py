@@ -3,7 +3,7 @@ class InvalidPointException(Exception):
     pass
 
 class NegativeDimensionException(Exception):
-    """Excepción cuando se detectan dimensiones negativas o iguales a cero."""
+    """Excepción para "figuras" con dimensiones negativas o iguales a cero (alto, lado o ancho)."""
     pass
 
 class DegenerateTriangleException(Exception):
