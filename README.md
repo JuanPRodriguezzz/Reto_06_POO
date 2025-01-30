@@ -289,3 +289,24 @@ class MismosCaracteres:
 
 MismosCaracteres().ejecutar()
 ```
+
+## 2. In the package Shape identify at least cases where exceptions are needed (maybe when validate input data, or math procedures) explain them clearly using comments and add them to the code.
+
+```
+Shape/
+├── __init__.py
+├── exceptions.py
+├── point.py
+├── line.py
+├── shape.py
+├── rectangle.py
+├── square.py
+├── triangle.py
+└── triangles/
+    ├── __init__.py
+    ├── isosceles.py
+    ├── equilateral.py
+    ├── scalene.py
+    └── tri_rectangle.py
+```
+## El paquete está adjunto en el repo "Shape 2"
