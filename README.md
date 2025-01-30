@@ -1,7 +1,7 @@
 # Reto_06_POO
 # Juan Pablo Rodríguez Cruz
 
-### Add the required exceptions in the Reto 1 code assigments.
+## 1. Add the required exceptions in the Reto 1 code assigments.
 
 1. Crear una función que realice operaciones básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada de la función será los dos operandos y el caracter usado para la operación. entrada: (1,2,"+"), salida (3).
 
