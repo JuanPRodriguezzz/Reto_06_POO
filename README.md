@@ -92,7 +92,7 @@ class Calculadora:
             except EntradaInvalidaException as ee:
                 print(f"\nError: {str(ee)}")
             except Exception as e:
-                # Cualquier otro error
+                # Cualquier otro error inesperado
                 print(f"\nOcurrió un error: {str(e)}")
 
 calculadora = Calculadora()
@@ -135,7 +135,7 @@ class PalindromoChecker:
                     print(f"\n{palabra} es un palíndromo.\n")
                 else:
                     print(f"\n{palabra} no es un palíndromo.\n")
-            # Excepciones para el bloque Except
+            # Excepciones para el bloque Except y except Exception para errores inesperados
             except PalabraVaciaException as pve:
                 print(f"\nError: {str(pve)}\n")
             except Exception as e:
@@ -188,7 +188,7 @@ class Primos:
                 numeros = entrada.split(',')
                 primos_encontrados = self.obtener_primos(numeros)
                 print("\nNúmeros primos en la lista:", primos_encontrados)
-            # Excepciones para el bloque Except
+            # Excepciones para el bloque Except y except Exception para errores inesperados
             except ListaVaciaException as le:
                 print(f"\nError: {str(le)}")
             except Exception as e:
@@ -241,7 +241,7 @@ class MayorSumaConsecutiva:
                 resultado = self.calcular_mayor_suma(lista)
                 print(f"\nLa mayor suma entre dos números consecutivos es: {resultado}\n")
 
-            # Excepciones para el bloque Except
+            # Excepciones para el bloque Except y except Exception para errores inesperados
             except ListaInvalidaException as lie:
                 print(f"\nError: {str(lie)}\n")
             # Valor de entrada incorrecto para la operación
@@ -301,7 +301,7 @@ class MismosCaracteres:
                     print(f"\nLas palabras con los mismos caracteres son: {resultado}\n")
                 else:
                     print("\nNo se encontraron palabras con los mismos caracteres.\n")
-            # Excepciones para el bloque Except
+            # Excepciones para el bloque Except y except Exception para errores inesperados
             except ListaDePalabrasVaciaException as lpe:
                 print(f"\nError: {str(lpe)}\n")
             except Exception as e:
