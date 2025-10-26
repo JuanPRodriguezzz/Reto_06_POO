@@ -310,3 +310,5 @@ class MismosCaracteres:
 
 MismosCaracteres().ejecutar()
 ```
+
+**Arreglo**
